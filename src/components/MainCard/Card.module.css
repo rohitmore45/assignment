@@ -1,0 +1,95 @@
+.mainContainer {
+  display: flex;
+  margin-top: 30px;
+  font-family: Inter;
+}
+.title,
+.description {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4b5665;
+}
+.description {
+  font-weight: 400;
+}
+.name {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #626e79;
+}
+
+.ratingContainer {
+  width: 140px;
+  height: 120px;
+  background-color: #f3f9ff;
+  text-align: center;
+}
+.rating {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+.status {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 5px;
+}
+.dataId {
+  font-size: 20px;
+  font-weight: 400;
+  color: #626e79;
+  border: 1px solid #e1e4e6;
+  padding: 10px;
+  border-radius: 1000px;
+}
+.choice {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 10px;
+  background: #ff7724;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  position: relative;
+  top: 40;
+}
+.feature {
+  height: 100px;
+  width: 500px;
+  background: #fff4ed;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: left;
+}
+.feature2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #4b5665;
+}
+.viewBtn {
+  font-size: 16px;
+  font-weight: 400;
+  background: #1b88f4;
+  width: 230px;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: -40px;
+}

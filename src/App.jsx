@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header";
+import Card from "./components/MainCard/Card";
 import Title from "./components/Title/Title";
 
 function App() {

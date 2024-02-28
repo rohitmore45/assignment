@@ -3,6 +3,8 @@ import styles from "./Title.module.css";
 import Detail from "./Details/Detail";
 import Links from "./Links/Links";
 import BreadCrumb from "./Details/BreadCrumb/BreadCrumb";
+import Card from "../MainCard/Card";
+import data from "../MainCard/CardData.json";
 
 export default function Title() {
   return (
@@ -24,6 +26,9 @@ export default function Title() {
         <BreadCrumb name="Hosting 6" />
         <BreadCrumb name="Hosting 5" />
       </div>
+      {data.map((data) => {
+        return <Card key={data.id} data={data} />;
+      })}
     </main>
   );
 }
