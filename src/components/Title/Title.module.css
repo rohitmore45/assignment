@@ -1,0 +1,42 @@
+.title {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.btnLinks {
+  margin-top: 20px;
+}
+.breadCrumb {
+  display: flex;
+  margin: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 45px;
+    font-family: Inter;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .btnLinks {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-bottom: 2px solid #e1e4e6;
+  }
+
+  .breadCrumb {
+    display: block;
+    margin: 15px;
+    font-size: 10px;
+  }
+}
