@@ -1,0 +1,46 @@
+.dealsContainer {
+  width: 100%;
+  font-family: Inter;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.dealsTitle {
+  font-size: 32px;
+  font-weight: 400;
+  color: #5c6874;
+  width: 40%;
+}
+.dealsInput {
+  width: 30%;
+}
+.dealsInput input {
+  border: none;
+  background: rgb(249, 247, 247);
+  width: 300px;
+}
+.dealsInput button {
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  color: #fff;
+  background: #1b88f4;
+}
+@media only screen and (max-width: 600px) {
+  .dealsContainer {
+    width: 100%;
+  }
+  .dealsTitle {
+    font-size: 14px;
+    width: 40%;
+  }
+  .dealsInput {
+    width: 70%;
+  }
+  .dealsInput button {
+    font-size: 12px;
+  }
+  .dealsInput input {
+    width: 100px;
+  }
+}

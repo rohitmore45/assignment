@@ -93,3 +93,56 @@
   margin-top: 50px;
   margin-left: -40px;
 }
+
+@media only screen and (max-width: 800px) {
+  .mainContainer {
+    display: block;
+    margin-top: 30px;
+  }
+  .title,
+  .description {
+    font-size: 12px;
+    text-align: center;
+  }
+  .name {
+    font-size: 12px;
+    text-align: center;
+  }
+  .ratingContainer {
+    width: 100px;
+    height: 80px;
+    margin: auto;
+  }
+  .rating {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .status {
+    font-size: 12px;
+  }
+  .choice {
+    font-size: 12px;
+    margin-left: 35px;
+  }
+  .feature {
+    height: 80px;
+    width: 100%;
+    font-size: 12px;
+  }
+  .feature2 {
+    font-size: 13px;
+  }
+  .viewBtn {
+    font-size: 16px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 38px;
+    padding: 8px;
+  }
+  .imgDiv {
+    margin-left: 35px;
+  }
+  .options {
+    font-size: 14px;
+  }
+}

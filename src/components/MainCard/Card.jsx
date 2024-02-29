@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Card.module.css";
 
 export default function Card({ data }) {
-  console.log(data);
   return (
     <div className={`${styles.mainContainer}`}>
       <div>
@@ -11,11 +10,13 @@ export default function Card({ data }) {
         )}
 
         <div
+        className={`${styles.imgDiv}`}
           style={{
             backgroundImage: `url(${data.img})`,
             height: "150px",
             width: "200px",
             backgroundSize: "cover",
+            alignContent:'center'
           }}
         >
           <span className={`${styles.dataId} `}>{data.id}</span>
@@ -43,7 +44,7 @@ export default function Card({ data }) {
         )}
         <p className={`${styles.description}`}>{data.highlight}</p>
         <p>
-          <a href="#">
+          <a href="#" className={`${styles.options}`}>
             see more <span className="bi bi-chevron-down"></span>
           </a>
         </p>

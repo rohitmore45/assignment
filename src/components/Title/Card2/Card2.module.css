@@ -1,0 +1,66 @@
+.card2Container {
+  font-family: Inter;
+}
+
+.card {
+  width: 300px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.cardImg {
+  text-align: center;
+}
+
+.discount {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px;
+  color: #074786;
+  background: #f2f4f7;
+  border-radius: 8px;
+}
+.builder {
+  font-size: 16px;
+  font-weight: 700;
+  color: #626e79;
+  text-align: center;
+  margin-top: 10px;
+}
+.cardDescription {
+  font-size: 16px;
+  font-weight: 400;
+  color: #626e79;
+}
+
+.cardPrice {
+  font-size: 20px;
+  font-weight: 400;
+  color: #5c6874;
+}
+.cardOriginalPrice {
+  font-size: 14px;
+  color: #9fa9b3;
+}
+.cardDiscount {
+  font-size: 13px;
+  font-weight: 400;
+  color: #ef4c5d;
+}
+.cardBtn {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  background: #1b88f4;
+  border: none;
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 280px;
+    margin-bottom: 20px;
+  }
+}

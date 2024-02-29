@@ -1,5 +1,5 @@
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import Card from "./components/MainCard/Card";
 import Title from "./components/Title/Title";
 
 function App() {
@@ -8,6 +8,9 @@ function App() {
       <div style={{ backgroundColor: "#fbfcfd" }}>
         <Header />
         <Title />
+        <div className="container">
+          <Footer />
+        </div>
       </div>
     </>
   );

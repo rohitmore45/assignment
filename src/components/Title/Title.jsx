@@ -5,6 +5,8 @@ import Links from "./Links/Links";
 import BreadCrumb from "./Details/BreadCrumb/BreadCrumb";
 import Card from "../MainCard/Card";
 import data from "../MainCard/CardData.json";
+import Card2 from "./Card2/Card2";
+import Deals from "./Deals/Deals";
 
 export default function Title() {
   return (
@@ -29,6 +31,17 @@ export default function Title() {
       {data.map((data) => {
         return <Card key={data.id} data={data} />;
       })}
+      <div>
+        <p className={`${styles.cartTitle} mt-4`}>
+          Related deals you might like for
+        </p>
+        <div className={`${styles.card2}`}>
+          <Card2 />
+          <Card2 />
+          <Card2 />
+        </div>
+      </div>
+      <Deals />
     </main>
   );
 }
